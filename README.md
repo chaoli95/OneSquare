@@ -30,5 +30,4 @@
     var node = editView.getNodeBy(nodeInfo)
 ```
 对这个node操作即可进行编辑， 删除则是 node.removeFromParentNode()
-这块我还没测试😂
     
