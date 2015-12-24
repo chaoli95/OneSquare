@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CDF3BBCA56E8784F2A6816F /* Pods_OneSquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57002F571E33B5DB687B3BB /* Pods_OneSquare.framework */; };
+		9D27B1DC1C25969C0044406E /* ProjectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27B1DB1C25969C0044406E /* ProjectorView.swift */; };
+		9D27B1DE1C259B4B0044406E /* NodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27B1DD1C259B4B0044406E /* NodeInfo.swift */; };
+		9D27B1E01C259D660044406E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D27B1DF1C259D660044406E /* Extension.swift */; };
+		9D827EEF1C2AF7D900133E2E /* LightEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D827EEE1C2AF7D900133E2E /* LightEditViewController.swift */; };
+		9DBBC55F1C19842A009BCEB4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DBBC55E1C19842A009BCEB4 /* art.scnassets */; };
+		9DBBC5651C1993A6009BCEB4 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBBC5641C1993A6009BCEB4 /* EditView.swift */; };
 		9DD13A031C197F8C00C344E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD13A021C197F8C00C344E8 /* AppDelegate.swift */; };
 		9DD13A051C197F8C00C344E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD13A041C197F8C00C344E8 /* ViewController.swift */; };
 		9DD13A081C197F8C00C344E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD13A061C197F8C00C344E8 /* Main.storyboard */; };
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CF8D374BD6607F37EDCA2C1 /* Pods-OneSquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSquare/Pods-OneSquare.release.xcconfig"; sourceTree = "<group>"; };
+		5298AE90DB48ABE702357235 /* Pods-OneSquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSquare/Pods-OneSquare.debug.xcconfig"; sourceTree = "<group>"; };
+		9D27B1DB1C25969C0044406E /* ProjectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectorView.swift; sourceTree = "<group>"; };
+		9D27B1DD1C259B4B0044406E /* NodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeInfo.swift; sourceTree = "<group>"; };
+		9D27B1DF1C259D660044406E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9D827EEE1C2AF7D900133E2E /* LightEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightEditViewController.swift; sourceTree = "<group>"; };
+		9DBBC55E1C19842A009BCEB4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9DBBC5641C1993A6009BCEB4 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		9DBBC56A1C199E24009BCEB4 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		9DD139FF1C197F8C00C344E8 /* OneSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD13A021C197F8C00C344E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD13A041C197F8C00C344E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,7 @@
 		9DD13A1E1C197F8C00C344E8 /* OneSquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSquareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD13A221C197F8C00C344E8 /* OneSquareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSquareUITests.swift; sourceTree = "<group>"; };
 		9DD13A241C197F8C00C344E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57002F571E33B5DB687B3BB /* Pods_OneSquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CDF3BBCA56E8784F2A6816F /* Pods_OneSquare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				9DD13A161C197F8C00C344E8 /* OneSquareTests */,
 				9DD13A211C197F8C00C344E8 /* OneSquareUITests */,
 				9DD13A001C197F8C00C344E8 /* Products */,
+				ACDC45D9B295F3FFCBAA7795 /* Pods */,
+				D4BDC59D329D0F88C9913B97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +119,14 @@
 			children = (
 				9DD13A021C197F8C00C344E8 /* AppDelegate.swift */,
 				9DD13A041C197F8C00C344E8 /* ViewController.swift */,
+				9D827EEE1C2AF7D900133E2E /* LightEditViewController.swift */,
+				9DBBC5641C1993A6009BCEB4 /* EditView.swift */,
+				9D27B1DB1C25969C0044406E /* ProjectorView.swift */,
+				9D27B1DD1C259B4B0044406E /* NodeInfo.swift */,
+				9D27B1DF1C259D660044406E /* Extension.swift */,
 				9DD13A061C197F8C00C344E8 /* Main.storyboard */,
 				9DD13A091C197F8C00C344E8 /* Assets.xcassets */,
+				9DBBC55E1C19842A009BCEB4 /* art.scnassets */,
 				9DD13A0B1C197F8C00C344E8 /* LaunchScreen.storyboard */,
 				9DD13A0E1C197F8C00C344E8 /* Info.plist */,
 			);
@@ -125,6 +151,24 @@
 			path = OneSquareUITests;
 			sourceTree = "<group>";
 		};
+		ACDC45D9B295F3FFCBAA7795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5298AE90DB48ABE702357235 /* Pods-OneSquare.debug.xcconfig */,
+				2CF8D374BD6607F37EDCA2C1 /* Pods-OneSquare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4BDC59D329D0F88C9913B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DBBC56A1C199E24009BCEB4 /* Reveal.framework */,
+				B57002F571E33B5DB687B3BB /* Pods_OneSquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DD13A271C197F8C00C344E8 /* Build configuration list for PBXNativeTarget "OneSquare" */;
 			buildPhases = (
+				C2A56B855BFAB132ACAC1FA5 /* Check Pods Manifest.lock */,
 				9DD139FB1C197F8C00C344E8 /* Sources */,
 				9DD139FC1C197F8C00C344E8 /* Frameworks */,
 				9DD139FD1C197F8C00C344E8 /* Resources */,
+				240F1EABFFEA850BE4A6FCF6 /* Embed Pods Frameworks */,
+				88EA3A4C9CE65A36EAD4BD15 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +240,7 @@
 				TargetAttributes = {
 					9DD139FE1C197F8C00C344E8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T97FFXXX75;
 					};
 					9DD13A121C197F8C00C344E8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -231,6 +279,7 @@
 			files = (
 				9DD13A0D1C197F8C00C344E8 /* LaunchScreen.storyboard in Resources */,
 				9DD13A0A1C197F8C00C344E8 /* Assets.xcassets in Resources */,
+				9DBBC55F1C19842A009BCEB4 /* art.scnassets in Resources */,
 				9DD13A081C197F8C00C344E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +300,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		240F1EABFFEA850BE4A6FCF6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSquare/Pods-OneSquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88EA3A4C9CE65A36EAD4BD15 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSquare/Pods-OneSquare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A56B855BFAB132ACAC1FA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DD139FB1C197F8C00C344E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DD13A051C197F8C00C344E8 /* ViewController.swift in Sources */,
+				9D27B1DE1C259B4B0044406E /* NodeInfo.swift in Sources */,
+				9D27B1DC1C25969C0044406E /* ProjectorView.swift in Sources */,
+				9D827EEF1C2AF7D900133E2E /* LightEditViewController.swift in Sources */,
+				9D27B1E01C259D660044406E /* Extension.swift in Sources */,
 				9DD13A031C197F8C00C344E8 /* AppDelegate.swift in Sources */,
+				9DBBC5651C1993A6009BCEB4 /* EditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +499,59 @@
 		};
 		9DD13A281C197F8C00C344E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5298AE90DB48ABE702357235 /* Pods-OneSquare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OneSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SnapKit\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = come.uniquestudio.OneSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		9DD13A291C197F8C00C344E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF8D374BD6607F37EDCA2C1 /* Pods-OneSquare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OneSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SnapKit\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = come.uniquestudio.OneSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +622,7 @@
 				9DD13A291C197F8C00C344E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD13A2A1C197F8C00C344E8 /* Build configuration list for PBXNativeTarget "OneSquareTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +631,7 @@
 				9DD13A2C1C197F8C00C344E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD13A2D1C197F8C00C344E8 /* Build configuration list for PBXNativeTarget "OneSquareUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +640,7 @@
 				9DD13A2F1C197F8C00C344E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
