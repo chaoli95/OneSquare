@@ -44,6 +44,7 @@ class ViewController: UIViewController, LightEditViewControllerDelegate {
         vc.editView?.lightInfoString = self.editView.lightInfoString
         vc.editView?.cameraInfoString = self.editView.cameraInfoString
         vc.delegate = self
+        vc.nodeInfo = self.lightArray[1]
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -14,7 +14,18 @@ import SceneKit
 }
 
 class LightEditViewController: UIViewController {
-
+    var nodeInfo: LightNodeInfo? {
+        didSet {
+            if nodeInfo != nil {
+                node = editView?.getNodeBy(nodeInfo!)
+            }
+        }
+    }
+    var node: SCNNode? {
+        didSet {
+            node?.position = SCNVector3Make(0, 0, 0)
+        }
+    }
     var delegate: LightEditViewControllerDelegate?
     var editView: EditView?
     var editingNode: SCNNode?
@@ -24,7 +35,7 @@ class LightEditViewController: UIViewController {
         if editView != nil {
             self.view.addSubview(editView!)
         }
-        editingNode = self.editView?.addLightNode()
+        //editingNode = self.editView?.addLightNode()
         
         let button = UIButton.init(frame: CGRectMake(100, 400, 100, 100))
         button.backgroundColor = UIColor.blackColor()
@@ -33,6 +44,7 @@ class LightEditViewController: UIViewController {
     }
     
     func didSaveAndPop() {
+        
         self.delegate?.didSave((self.editView?.cameraInfoString)!, lightInfoString: (self.editView?.lightInfoString)!)
         self.navigationController?.popViewControllerAnimated(true)
     }

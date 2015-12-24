@@ -185,6 +185,11 @@ extension SCNNode {
     
     func isEqualToLightNodeInfo(lightNodeInfo: LightNodeInfo) -> Bool {
         let info = self.lightNodeInfo()
-        return (info!.position)! == lightNodeInfo.position! && (info?.euler)! == lightNodeInfo.euler! && (info?.lookAtPoint)! == lightNodeInfo.lookAtPoint! && info!.type == lightNodeInfo.type
+        if info != nil {
+            return (info!.position)! == lightNodeInfo.position! && (info?.euler)! == lightNodeInfo.euler! && (info?.lookAtPoint)! == lightNodeInfo.lookAtPoint! && info!.type == lightNodeInfo.type
+        } else {
+            return false
+        }
+        
     }
 }
